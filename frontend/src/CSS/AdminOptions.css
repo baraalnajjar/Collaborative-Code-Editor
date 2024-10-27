@@ -1,0 +1,63 @@
+.admin-options-container {
+  background-color: #f8f9fa;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin: 2rem auto;
+  max-width: 400px;
+}
+
+.admin-title {
+  color: #007bff;
+  margin-bottom: 1.5rem;
+}
+
+.admin-options-list {
+  list-style: none;
+  padding: 0;
+}
+
+.admin-options-list li {
+  margin: 0.5rem 0;
+}
+
+.admin-button {
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 0.25rem;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  min-width: 200px;
+  background-color: var(--button-color);
+}
+
+.manage-editors {
+  --button-color: #28a745;
+}
+
+.manage-editors:hover {
+  background-color: #218838;
+}
+
+.manage-viewers {
+  --button-color: #007bff;
+}
+
+.manage-viewers:hover {
+  background-color: #0056b3;
+}
+
+.logout {
+  --button-color: #dc3545;
+}
+
+.logout:hover {
+  background-color: #c82333;
+}
+
+.admin-button:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.5);
+}

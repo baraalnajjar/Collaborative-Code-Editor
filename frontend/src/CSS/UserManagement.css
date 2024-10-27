@@ -1,0 +1,69 @@
+.viewer-management-container {
+  background-color: #f8f9fa;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin: 2rem auto;
+  max-width: 400px;
+}
+
+.management-title {
+  color: #007bff;
+  margin-bottom: 1.5rem;
+}
+
+.button-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.management-button {
+  margin-top: 2%;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 0.25rem;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  min-width: 220px;
+  background-color: var(--button-color);
+}
+
+.add-user {
+  --button-color: #28a745;
+}
+
+.add-user:hover {
+  background-color: #218838;
+}
+
+.remove-user {
+  --button-color: #dc3545;
+}
+
+.remove-user:hover {
+  background-color: #c82333;
+}
+
+.view-users {
+  --button-color: #007bff;
+}
+
+.view-users:hover {
+  background-color: #0056b3;
+}
+
+.back-to-admin {
+  --button-color: #6c757d;
+}
+
+.back-to-admin:hover {
+  background-color: #5a6268;
+}
+
+.management-button:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.5);
+}
